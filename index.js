@@ -8,7 +8,8 @@ function requestHandler(req,res)
     // for localhost:8000/user it will give /user
     // for localhost:8000/prifle it will give /profile
     console.log(req.url);
-
+    
+    // content-type text/html gives html
     res.writeHead(200, {'content-type':'text/html'})
     
 
